@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courier+Prime:wght@700&family=Dancing+Script:wght@600&display=swap');
+
 html,
 body {
   padding: 0;
@@ -15,12 +20,6 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.main{
+  font-family: 'Dancing Script', cursive;
 }
