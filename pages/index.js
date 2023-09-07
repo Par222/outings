@@ -26,8 +26,9 @@ export default function Home() {
     history:false
   })
   const clickHandler=()=>{
-    setisbook(true)
+    
     play()
+    setisbook(true)
   }
   const movieHandler=()=>{
     setisMovie(true)
